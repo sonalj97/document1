@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+			<meta name="viewport" content="width=device-width, initial-scale=1">
+	            <title>Nursary School</title>
+<link rel="stylesheet" href="b.css">
+</head>
+<body>
+
+
+
+	<header class="header_area">
+		<div class="header-top">
+			
+		</div>
+				<div class="main_menu">
+			
+			</div>
+		<nav class="navbar navbar-expand-lg navbar-light">
+				<div class="container">
+	        <div class="collapse navbar-collapse offset" id="navbarSupportedContent">
+						<ul class="nav navbar-nav menu_nav ml-auto">
+							<li class="nav-item active"><a class="nav-link" href="profdemo.html">Home</a></li>
+<li class="nav-item "><a class="nav-link" href="reg.html">Registration</a></li>
+							<li class="nav-item "><a class="nav-link" href="f1.html">Facility</a></li>
+					   	<li class="nav-item "><a class="nav-link" href="c11.html">Contact</a></li>
+						</ul>
+					</div>
+				</div>
+			</nav>
+		</div>
+	</header>
+	<center>
+	<section class="home_banner_area">
+		<div class="banner_inner">
+			<div class="container">
+				<div class="banner_content">
+					<h2>
+				</h2>
+				<a class="primary-btn text-uppercase" href="https://www.youtube.com/watch?v=kCHeKc2R96o" target="_blank">KIDS HOUSE</a>
+				</div>
+			</div>
+		</div>
+		
+		
+<div class="slideshow-container">
+<div class="bottom-left"><b><p style="color:blue; font-size:50;">“Education breeds confidence. <br>Confidence breeds hope. Hope breeds peace.” </p> <br></div>
+<div class="mySlides fade">
+  <div class="numbertext"></div>
+  <img src="b2.jpg" style="width:100%">
+  <div class="text">House</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext"></div>
+  <img src="b3.jpg" style="width:100%">
+  <div class="text"></div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext"></div>
+  <img src="b4.jpg" style="width:100%">
+  <div class="text"></div>
+</div>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+</div>
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+	if (slideIndex > slides.length)
+	{slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 2000); // 
+}
+</script>
+
+	</section>
+	</center>
+</body>
+
+	</html>
